@@ -1,0 +1,55 @@
+{
+    "cranes": [
+      {
+        "id": "liebherr-ltm-11200",
+        "name": "Liebherr LTM 11200-9.1",
+        "manufacturer": "Liebherr",
+        "capacity": 1200,
+        "max_height_m": 188,
+        "weight_tons": 108,
+        "price": 10000000,
+        "image": "assets/images/liebherr-ltm-11200.jpg"
+      },
+      {
+        "id": "terex-demag-ac-1000",
+        "name": "Terex Demag AC 1000",
+        "manufacturer": "Terex",
+        "capacity": 1000,
+        "max_height_m": 163,
+        "price": 5000000,
+        "weight_tons": 96,
+        "image": "assets/images/terex-demag-ac-1000.jpg"
+      },
+      {
+        "id": "manitowoc-31000",
+        "name": "Manitowoc 31000",
+        "manufacturer": "Manitowoc",
+        "capacity": 2300,
+        "max_height_m": 198,
+        "price": 15000000,
+        "weight_tons": 156,
+        "image": "assets/images/manitowoc-31000.jpg"
+      },
+      {
+        "id": "tadano-atf-400g-6",
+        "name": "Tadano ATF 400G-6",
+        "manufacturer": "Tadano",
+        "capacity_tons": 400,
+        "max_height_m": 120,
+        "price": 4000000,
+        "weight_tons": 72,
+        "image": "assets/images/tadano-atf-400g-6.jpg"
+      },
+      {
+        "id": "grove-gmk6400",
+        "name": "Grove GMK6400",
+        "manufacturer": "Grove",
+        "capacity": 400,
+        "max_height_m": 136,
+        "price": 3000000,
+        "weight_tons": 60,
+        "image": "assets/images/grove-gmk6400.jpg"
+      }
+    ]
+  }
+  

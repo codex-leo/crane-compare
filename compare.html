@@ -11,48 +11,9 @@
     <div id="container">
         <h2>Crane Comparison Tool</h2>
         <p>Select cranes to compare:</p>
-        <div class="crane-grid">
-            <div class="crane-card">
-                <img src="assets/crane1.jpg" alt="Crane Model 1">
-                <h3>ACE F-180 Make Hydraulic Next Gen Crane</h3>
-                <input type="checkbox" id="crane1" name="crane1">
-                <label for="crane1">Select</label>
-                <button>View more details</button>
-            </div>
-            <div class="crane-card">
-                <img src="crane2.jpg" alt="Crane Model 2">
-                <h3>Crane Model 2</h3>
-                <input type="checkbox" id="crane2" name="crane2">
-                <label for="crane2">Select</label>
-            </div>
-            <div class="crane-card">
-                <img src="crane3.jpg" alt="Crane Model 3">
-                <h3>Crane Model 3</h3>
-                <input type="checkbox" id="crane3" name="crane3">
-                <label for="crane3">Select</label>
-            </div>
-            <div class="crane-card">
-                <img src="crane4.jpg" alt="Crane Model 4">
-                <h3>Crane Model 4</h3>
-                <input type="checkbox" id="crane4" name="crane4">
-                <label for="crane4">Select</label>
-            </div>
-        </div>
+        <div class="crane-grid" id="craneContainer"> </div>
         <button onclick="compareCranes()">Compare</button>
     </div>
-
-    <script>
-    function compareCranes() {
-        const selectedCranes = [];
-        document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
-            selectedCranes.push(checkbox.nextElementSibling.previousElementSibling.textContent);
-        });
-        if (selectedCranes.length > 0) {
-            window.location.href = 'comparison.html?cranes=' + encodeURIComponent(selectedCranes.join(','));
-        } else {
-            alert('Please select at least one crane to compare.');
-        }
-    }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
