@@ -1,0 +1,2 @@
+# crane-compare
+A web based app which is useful for comparing cranes,and select the best!
