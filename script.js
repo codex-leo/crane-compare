@@ -13,6 +13,7 @@ fetch('assets/cranes.json')
                 <h3>${crane.name}</h3>
                 <p>Manufacturer: ${crane.manufacturer}</p>
                 <p>Capacity: ${crane.capacity} tons</p>
+                <p>Price: Rs.${crane.price}</p>
                 <button onclick="viewDetails('${crane.id}')">View Details</button>
             `;
 
