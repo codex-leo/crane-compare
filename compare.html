@@ -7,12 +7,16 @@
     <title>Crane Comparison Tool</title>
 </head>
 <body>
-    
     <div id="container">
         <h2>Crane Comparison Tool</h2>
         <p>Select cranes to compare:</p>
+        <input type="text" id="Searchinput" placeholder="Search for cranes...">
+        <p id="notFound" style="display: none;"></p>
         <div class="crane-grid" id="craneContainer"> </div>
+        <br>
         <button onclick="compareCranes()">Compare</button>
+        <br>
+        <a href="index.html"><button>Back</button></a>
     </div>
     <script src="script.js"></script>
 </body>
